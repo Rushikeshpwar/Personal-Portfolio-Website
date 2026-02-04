@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Education</title>
+</head>
+<body>
+
+    <!-- NAVBAR (SAME AS INDEX.HTML) -->
+ <nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="RUshi-Logo (1).png" alt="Logo">
+        </div>
+
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-delay="100">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="200">
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="300">
+                <a href="education.html">Education</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="400">
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+
+        <!-- Contact page opens here -->
+        <button
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+</nav>
+
+
+    <!-- MAIN SECTION (VERTICALLY CENTERED) -->
+    <section
+        style="
+            min-height: calc(100vh - 10vh);
+            display: flex;
+            align-items: center;
+        "
+    >
+        <div class="main-content"
+             style="
+                width: 66vw;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+             ">
+
+            <!-- PAGE TITLE -->
+            <h1 data-aos="fade-right">Education Detail</h1>
+
+            <!-- EDUCATION BOX ROW -->
+            <div
+                data-aos="fade-up"
+                style="
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 30px;
+                    margin-top: 40px;
+                "
+            >
+
+                <!-- BTECH -->
+                <div
+                    style="
+                        flex: 1;
+                        padding: 30px;
+                        border-radius: 18px;
+                        background: rgba(0,0,0,0.06);
+                        box-shadow:
+                            0 14px 35px rgba(0,0,0,0.3),
+                            0 6px 15px rgba(0,0,0,0.18);
+                    "
+                >
+                    <h3>🎓 B.Tech (Computer)</h3>
+                    <p><strong>Year:</strong> 2021 – 2025</p>
+                    <p>
+                        Recently completed Computer Engineering with a focus on
+                        software development and modern web technologies.
+                        Gained practical experience in building web applications.
+                    </p>
+                </div>
+
+                <!-- HSC -->
+                <div
+                    style="
+                        flex: 1;
+                        padding: 30px;
+                        border-radius: 18px;
+                        background: rgba(0,0,0,0.06);
+                        box-shadow:
+                            0 14px 35px rgba(0,0,0,0.3),
+                            0 6px 15px rgba(0,0,0,0.18);
+                    "
+                >
+                    <h3>🏫 HSC</h3>
+                    <p><strong>Board:</strong> Maharashtra State Board</p>
+                    <p><strong>Year:</strong> 2019 – 2021</p>
+                    <p>
+                        Completed Higher Secondary education in Science stream
+                        with a strong foundation in mathematics and problem-solving.
+                    </p>
+                </div>
+
+                <!-- SSC -->
+                <div
+                    style="
+                        flex: 1;
+                        padding: 30px;
+                        border-radius: 18px;
+                        background: rgba(0,0,0,0.06);
+                        box-shadow:
+                            0 14px 35px rgba(0,0,0,0.3),
+                            0 6px 15px rgba(0,0,0,0.18);
+                    "
+                >
+                    <h3>🏫 SSC</h3>
+                    <p><strong>Board:</strong> Maharashtra State Board</p>
+                    <p><strong>Year:</strong> 2014 – 2019</p>
+                    <p>
+                        Built a strong academic base and disciplined learning
+                        habits that developed interest in technology and computers.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+
+</body>
+</html>
