@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projects</title>
+</head>
+<body>
+
+    <!-- NAVBAR (SAME AS INDEX.HTML) -->
+ <nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="RUshi-Logo (1).png" alt="Logo">
+        </div>
+
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-delay="100">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="200">
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="300">
+                <a href="education.html">Education</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="400">
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+
+        <!-- Contact page opens here -->
+        <button
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+</nav>
+
+
+    <!-- PROJECTS SECTION -->
+    <section>
+        <div class="main-content"
+             style="
+                width: 66vw;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 60px;
+             ">
+
+            <!-- PAGE TITLE -->
+            <h1 data-aos="fade-right">Projects</h1>
+
+            <!-- PROJECT BOXES -->
+            <div
+                data-aos="fade-up"
+                style="
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 30px;
+                    margin-top: 40px;
+                ">
+
+                <!-- PROJECT 1 -->
+           <div
+    style="
+        flex: 1;
+        padding: 25px;
+        border-radius: 16px;
+        background: rgba(0,0,0,0.06);
+        box-shadow:
+            0 12px 30px rgba(0,0,0,0.25),
+            0 4px 10px rgba(0,0,0,0.15);
+    ">
+    <h3>💼 Personal Portfolio Website</h3>
+
+    <p>
+        <strong>Tech:</strong>
+        HTML5, CSS3, Bootstrap, Basic JavaScript
+    </p>
+    <br>
+
+    <ul>
+        <li>Designed and developed a responsive personal portfolio website.</li>
+        <li>Showcases personal details, skills, education, and projects.</li>
+        <li>Includes sections such as Home, About, Skills, Projects, and Contact.</li>
+        <li>Implemented clean UI design and smooth, user-friendly navigation.</li>
+        <li>Ensured compatibility across desktop, tablet, and mobile devices using Bootstrap.</li>
+    </ul>
+</div>
+
+
+
+                <!-- PROJECT 2 -->
+               <div
+    style="
+        flex: 1;
+        padding: 25px;
+        border-radius: 16px;
+        background: rgba(0,0,0,0.06);
+        box-shadow:
+            0 12px 30px rgba(0,0,0,0.25),
+            0 4px 10px rgba(0,0,0,0.15);
+    ">
+    <h3>🌦 Weather Forecasting Application</h3>
+
+    <p>
+        <strong>Tech:</strong>
+        HTML, CSS, JavaScript, OpenWeatherMap API
+    </p>
+<br>
+    <ul>
+        <li>Developed a responsive weather forecasting application.</li>
+        <li>Integrated OpenWeatherMap API to fetch real-time and 7-day forecasts.</li>
+        <li>Implemented user geolocation for location-based weather details.</li>
+        <li>Displayed temperature, humidity, rainfall, and weather conditions.</li>
+        <li>Designed a mobile-friendly interface for consistent performance.</li>
+    </ul>
+</div>
+
+
+                <!-- PROJECT 3 -->
+               <div
+    style="
+        flex: 1;
+        padding: 25px;
+        border-radius: 16px;
+        background: rgba(0,0,0,0.06);
+        box-shadow:
+            0 12px 30px rgba(0,0,0,0.25),
+            0 4px 10px rgba(0,0,0,0.15);
+    ">
+    <h3>🚀 Full Stack Academic Project</h3>
+
+    <p>
+        <strong>Tech:</strong>
+        Core Java, JDBC, SQL, HTML, CSS
+    </p>
+<br>
+    <ul>
+        <li>Developed a full-stack academic project using Core Java and JDBC.</li>
+        <li>Implemented database operations using SQL.</li>
+        <li>Designed frontend components using HTML and CSS.</li>
+        <li>Followed real-world application development workflows.</li>
+        <li>Strengthened understanding of backend and frontend integration.</li>
+    </ul>
+</div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+
+</body>
+</html>
