@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+</head>
+<body>
+
+<!-- NAVBAR (SAME AS INDEX.HTML) -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="RUshi-Logo (1).png" alt="Logo">
+        </div>
+
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-delay="100">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="200">
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="300">
+                <a href="education.html">Education</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="400">
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+
+        <!-- Contact page opens here -->
+        <button
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+</nav>
+
+
+<!-- ABOUT SECTION (SAME STRUCTURE AS HOME) -->
+<section>
+    <div class="content">
+
+        <!-- IMAGE FIRST (NOW ON LEFT) -->
+        <div class="image">
+            <img src="Profie_picture.jpeg"
+                 alt="Profile-image"
+                 data-aos="zoom-in"
+                 data-aos-duration="2800">
+        </div>
+
+        <!-- TEXT SECOND (NOW ON RIGHT) -->
+        <div class="main-content">
+            <h1 data-aos="fade-left" data-aos-duration="1500">About Me</h1>
+
+            <h2 data-aos="fade-right" data-aos-delay="300">Objective</h2>
+            <p data-aos="flip-up" data-aos-delay="500">
+                Motivated and detail-oriented Frontend Developer seeking an
+                entry-level position to apply HTML, CSS, JavaScript, and
+                Bootstrap skills in real-world projects.
+            </p>
+
+            <h2 data-aos="fade-right" data-aos-delay="700">Training & Internship</h2>
+            <p data-aos="flip-up" data-aos-delay="900">
+               Java full Stack, The Kiran Academy, Pune.  <br>
+• Successfully Completed an industrial internship focused on java full stack development. <br>
+• Gained hands-on experience in technologies such as core Java,JDBC,Sql,Html,Css,Javascript and Hibernate. <br>
+• Developed practical skills in building full-stack applications understanding real-world development workflows 
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({ offset: 0 });
+
+    const hamburg = document.querySelector(".hamburg");
+    const cancel = document.querySelector(".cancel");
+    const navbar = document.querySelector(".dropmenu");
+
+    hamburg.addEventListener("click", () => {
+        navbar.style.transform = "translateY(0px)";
+    });
+
+    cancel.addEventListener("click", () => {
+        navbar.style.transform = "translateY(-300px)";
+    });
+</script>
+
+</body>
+</html>
