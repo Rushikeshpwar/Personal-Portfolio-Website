@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!-- NAVBAR (SAME AS INDEX.HTML) -->
+ <nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="RUshi-Logo (1).png" alt="Logo">
+        </div>
+
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-delay="100">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="200">
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="300">
+                <a href="education.html">Education</a>
+            </div>
+            <div class="link" data-aos="fade-up" data-aos-delay="400">
+                <a href="projects.html">Projects</a>
+            </div>
+        </div>
+
+        <!-- Contact page opens here -->
+        <button
+            data-aos="zoom-in"
+            data-aos-delay="500"
+            onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+</nav>
+
+    <!-- CONTACT SECTION -->
+    <section>
+        <div class="content">
+
+            <!-- LEFT SIDE : CONTACT DETAILS -->
+            <div class="main-content">
+                <h1 data-aos="fade-right">Contact Me</h1>
+
+                <p data-aos="fade-right" data-aos-delay="200">
+                    Feel free to reach out to me for job opportunities,
+                    collaborations, or any professional inquiries.
+                </p>
+
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <p>
+                        📧 <strong>Email:</strong>
+                        <a href="mailto:rushikeshpawar2641@gmail.com">
+                            rushikeshpawar2641@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        📞 <strong>Mobile:</strong>
+                        <a href="tel:+919999999999">
+                            +91 99999 99999
+                        </a>
+                    </p>
+
+                    <p>
+                        📍 <strong>Location:</strong><br>
+                        Home No. 59, Lane No. 6,<br>
+                        Karve Nagar, Pune – 411052
+                    </p>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE : PROFILE IMAGE -->
+            <div class="image">
+                <img
+                    src="Profie_picture.jpeg"
+                    alt="Profile Image"
+                    data-aos="zoom-in"
+                    data-aos-duration="2500"
+                >
+            </div>
+
+        </div>
+    </section>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+
+</body>
+</html>
